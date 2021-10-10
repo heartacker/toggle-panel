@@ -1,15 +1,15 @@
 {
 	"name": "toggle-panel-fork",
 	"displayName": "Toggle Panel Fork",
-	"description": "Toggle the panel via a button in the status bar.",
+	"description": "Toggle the panel and side panel via a button in the status bar.",
 	"author": {
 		"name": "zawys",
 		"email": "pj94ye@runbox.com"
 	},
 	"publisher": "zawys",
-	"version": "2.0.1",
+	"version": "2.1.0",
 	"engines": {
-		"vscode": "^1.48.0"
+		"vscode": "^1.61.0"
 	},
 	"categories": [
 		"Other"
