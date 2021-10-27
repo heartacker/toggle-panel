@@ -1,13 +1,20 @@
 {
-	"name": "toggle-panel-fork",
-	"displayName": "Toggle Panel Fork",
+	"name": "toggle-panel",
+	"displayName": "Toggle Panel",
 	"description": "Toggle the panel and side panel via a button in the status bar.",
 	"author": {
-		"name": "zawys",
-		"email": "pj94ye@runbox.com"
+		"name": "heartacker",
+		"email": "heartacker@outlook.com"
 	},
-	"publisher": "zawys",
-	"version": "2.1.0",
+	"keywords": [
+		"toggle",
+		"panel",
+		"sidepanel",
+		"shortcut",
+		"useful"
+	],
+	"publisher": "heartacker",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
@@ -17,6 +24,7 @@
 	"activationEvents": [
 		"*"
 	],
+	"license": "MIT",
 	"main": "./out/extension.js",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
@@ -39,6 +47,6 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/zawys/toggle-panel.git"
+		"url": "https://github.com/heartacker/toggle-panel.git"
 	}
 }
