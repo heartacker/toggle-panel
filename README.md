@@ -1,6 +1,14 @@
-# Toggle Panel 
+# Toggle Panel
 
 Toggle Panel is an extension for VSCode that shows a little button that toggles the panel and side panel visibility on the right of the status bar.
+
+## How to enable the side penel
+
+add the config to you settings.json and restart the vscode
+
+```json
+    "workbench.experimental.sidePanel.enabled": true,
+```
 
 ![Toggle Panel](images/toggle-panel.gif)
 
