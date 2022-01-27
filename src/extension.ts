@@ -6,7 +6,7 @@ export function activate(context: vscode.ExtensionContext) {
 		-200
 	);
 	statusBarItem.command = "workbench.action.togglePanel";
-	statusBarItem.text = `$(console)`;
+	statusBarItem.text = `$(panel-bottom)`;
 	statusBarItem.tooltip = "Toggle the panel";
 	statusBarItem.show();
 
@@ -17,7 +17,7 @@ export function activate(context: vscode.ExtensionContext) {
 	);
 
 	sidePanel.command = "workbench.action.toggleAuxiliaryBar";
-	sidePanel.text = `$(chevron-right)`;
+	sidePanel.text = `$(panel-right)`;
 	sidePanel.tooltip = "Toggle side panel";
 	sidePanel.show();
 

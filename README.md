@@ -8,6 +8,7 @@ add the config to you settings.json and restart the vscode
 
 ```json
     "workbench.experimental.sidePanel.enabled": true,
+    "workbench.experimental.layoutControl.enabled": true
 ```
 
 ![Toggle Panel](images/toggle-panel.gif)
